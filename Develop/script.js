@@ -1,4 +1,4 @@
-// Assignment Code
+
 var generateBtn = document.querySelector("#generate");
 
 var specialCharacters = [
@@ -91,52 +91,37 @@ var upperCasedCharacters = [
 ];
 
 function generatePassword() {
-    var userOption = getUserOption();
-    console.log(userOption)
-    console.log(userOption.passwordLength)
-
-    return "This is my password"
-}
-
-function getUserOption() {
     var passwordLength = parseInt(prompt("How long would you like your password?"));
-    console.log(typeof passwordLength)
-    console.log(passwordLength)
-    console.log(lowerCase)
-    console.log(upperCase)
+    var optionsArr = []
+    var password = ``;
 
     if (!passwordLength || passwordLength < 8 || passwordLength > 128) {
         alert("Pick a number greater than 8 or less than 128")
-        return getUserOption()
+        return generatePassword()
     }
 
-    var lowerCase = confirm("Do you want lowercase characters?")
-    if ()
+    var lowerCase = confirm("Do you want lowercase characters?");
+    var upperCase = confirm("Do you want uppercase characters?");
+    var numeric = confirm("Do you want numeric value?");
+    var specialCharacters = confirm("Do you want special characters?");
+    console.log(passwordLength, lowerCase, upperCase, numeric, specialCharacters);
+
+    if (lowerCase) {
+        optionsArr = optionsArr.concat(lowerCasedCharacters);
+    }
+
+    // for
+
+    return password;
+
+};
 
 
-        var upperCase = confirm("Do you want uppercase characters?")
-    if ()
+
+// combine arrays into one //
 
 
-        var numeric = confirm("Do you want numeric value?")
-    if ()
-
-        var specialCharacters = confirm("Do you want special characters?")
-    if ()
-
-        // combine arrays into one //
-
-
-        return {
-            passwordLength,
-            lowerCase,
-            upperCase,
-            numeric,
-            specialCharacters
-
-        }
-}
-
+// var randomIndex = Math.floor(Math.random() * length);
 
 // Write password to the #password input
 function writePassword() {
