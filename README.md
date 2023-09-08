@@ -12,7 +12,7 @@ The goal of this project:
 - Use Math.random function to generate random number 
 - Create a for loop to generate a random password
 
-The motivation for the repository is to showcase how Javascirpt can dynamical change a static webpage to create a functional property such as a random password generator. 
+The motivation for the repository is to showcase how javascirpt can dynamically change a static webpage to create a functional property such as a random password generator. 
 
 ## Installation
 
