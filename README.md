@@ -29,7 +29,7 @@ To use project locally, follow these steps:
 ## Usage
 
 1. See below for snap shot of password generator webpage. 
-[Password Generator](./screenshot.png)
+Image![Password Generator](./screenshot.png)
 
 
 2. Follow deployed link for full access to
