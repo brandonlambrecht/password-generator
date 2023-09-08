@@ -13,6 +13,7 @@ The goal of this project:
 - Create a for loop to generate a random password
 
 The motivation for the repository is to showcase how Javascirpt can dynamical change a static webpage to create a functional property such as a random password generator. 
+
 ## Installation
 
 To use project locally, follow these steps:
@@ -22,11 +23,14 @@ To use project locally, follow these steps:
 
 2. Open 'index.html' in your web browser 
 
+3. Click button generate password and follow prompts for a random password to be displayed in text area box.
+
 
 ## Usage
 
-1. See link for snap shot of Personal Portfolio webpage.
-Image![Personal Portfolio](./assets/...
+1. See below for snap shot of password generator webpage. 
+[Password Generator](./screenshot.png)
 
-2. Follow deployed link for full access to webpage
-[Personal Portfolio]()
+
+2. Follow deployed link for full access to
+[Password Generator](https://brandonlambrecht.github.io/password-generator/)
